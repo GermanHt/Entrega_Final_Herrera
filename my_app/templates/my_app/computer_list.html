@@ -1,0 +1,17 @@
+{% extends "home/index.html" %}
+{% load static %}
+
+
+{% block entrega_content %}
+
+    <!-- Post preview-->
+    <div class="card-body">
+        <h3>Computer brand : {{ computer.brand }}</h3>
+        <h3>model: {{ computer.model }}</h3>
+        <h3>description: {{ computer.description }}</h3>
+        <h3>price: {{ computer.price }}</h3>
+    </div>
+    <!-- Divider-->
+    <hr/>
+
+{% endblock %}

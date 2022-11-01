@@ -1,0 +1,17 @@
+{% extends "home/index.html" %}
+{% load static %}
+
+
+{% block entrega_content %}
+
+    <!-- Post preview-->
+    <div class="card-body">
+        <h3>Accessorie brand: {{ accessorie.brand }}</h3>
+        <h3>model: {{ accessorie.model }}</h3>
+        <h3>description: {{ accessorie.description }}</h3>
+        <h3>price: {{ accessorie.price }}</h3>
+    </div>
+    <!-- Divider-->
+    <hr/>
+
+{% endblock %}
