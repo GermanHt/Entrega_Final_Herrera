@@ -4,6 +4,8 @@
 
 {% block entrega_content %}
 
+{% for computer in computers %}
+
     <!-- Post preview-->
     <div class="card-body">
         <h3>Computer brand : {{ computer.brand }}</h3>
@@ -13,5 +15,6 @@
     </div>
     <!-- Divider-->
     <hr/>
+{% endfor %}
 
 {% endblock %}

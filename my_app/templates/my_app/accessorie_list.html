@@ -4,6 +4,8 @@
 
 {% block entrega_content %}
 
+{% for accessorie in accessories %}
+
     <!-- Post preview-->
     <div class="card-body">
         <h3>Accessorie brand: {{ accessorie.brand }}</h3>
@@ -13,5 +15,7 @@
     </div>
     <!-- Divider-->
     <hr/>
+
+{% endfor %}
 
 {% endblock %}
