@@ -135,3 +135,7 @@ def accessories(request):
         context={"accessories": Accessorie.objects.all()},
         template_name="my_app/accessorie_list.html",
     )
+    
+    
+def test():
+    pass 
